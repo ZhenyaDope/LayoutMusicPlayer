@@ -58,8 +58,9 @@
         .genre__title{
             margin-bottom: 10px;
             p{
+                
                 font-size:15px; 
-                color: #828587;
+                
             }
         }
         .genre__category{
@@ -75,6 +76,10 @@
                 height: 95px;
                 border-radius:100px;
                 text-align: center;
+                a{
+                    color: #828587;
+                    text-decoration: none;
+                }
                 box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
             }
         }
