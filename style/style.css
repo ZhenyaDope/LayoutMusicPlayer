@@ -47,6 +47,11 @@
   padding: 25px 0px;
   border-radius: 100px;
   text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.login .links a:active {
+  box-shadow: inset 5px 5px 20px rgba(199, 201, 203, 0.7), inset -5px -5px 20px #FFFFFF;
 }
 
 .login .footer a {
@@ -81,6 +86,10 @@
   height: 55px;
   width: 55px;
   border-radius: 100px;
+}
+
+.main .top .menu:active, .main .top .search:active {
+  box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
 }
 
 .main .popular {
@@ -148,6 +157,10 @@
   border-radius: 100px;
   text-align: center;
   box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
+}
+
+.main .genre .genre__category .category:active {
+  box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
 }
 
 .main .genre .genre__category .category a {
@@ -343,6 +356,10 @@
   border-radius: 100px;
 }
 
+.player .player__btn .btn-prev:active, .player .player__btn .btn-next:active {
+  box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
+}
+
 .player .player__btn .btn-start {
   margin: 0px 10px;
   display: flex;
@@ -352,6 +369,10 @@
   background: #E9EDF0;
   box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
   border-radius: 100px;
+}
+
+.player .player__btn .btn-start:active {
+  box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
 }
 
 .player .player__btn .btn-start a {

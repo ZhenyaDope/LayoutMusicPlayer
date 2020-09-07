@@ -94,8 +94,11 @@
             align-items: center;
             padding:20px;
             background: #E9EDF0;
-                box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
-                border-radius: 100px;
+            box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
+            border-radius: 100px;
+            &:active{
+                box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
+            }
         }
         .btn-start{
             margin:0px 10px;
@@ -106,6 +109,9 @@
             background: #E9EDF0;
             box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
             border-radius: 100px;
+            &:active{
+                box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
+            }
             a{
                 margin:0px 2px;
             }

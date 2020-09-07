@@ -33,6 +33,10 @@
             padding:25px 0px;
             border-radius: 100px;
             text-align: center;
+            transition: box-shadow 0.3s ease-in-out;
+            &:active{
+                box-shadow: inset 5px 5px 20px rgba(199, 201, 203, 0.7), inset -5px -5px 20px #FFFFFF;
+            }
         }
     }
     .footer{

@@ -19,6 +19,9 @@
             height: 55px;
             width:55px;
             border-radius: 100px;
+            &:active{
+                box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
+            }
         }
     }
     .popular{
@@ -76,9 +79,13 @@
                 height: 95px;
                 border-radius:100px;
                 text-align: center;
+                &:active{
+                    box-shadow: inset 5px 5px 20px rgba(199, 202, 204, 0.6), inset -5px -5px 20px #FFFFFF;
+                }
                 a{
                     color: #828587;
                     text-decoration: none;
+                    
                 }
                 box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
             }
