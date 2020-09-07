@@ -23,7 +23,9 @@
   body {
     margin: 0;
   }
-  
+  a{
+    outline:none;
+  }
   /**
    * Render the `main` element consistently in IE.
    */

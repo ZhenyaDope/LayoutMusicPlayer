@@ -33,6 +33,82 @@
             font-size: 20px;
             color: #828587;
         }
-    } 
-    // TODO: Доделать страницу
+    }
+    .player__track{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        .track__value{
+            width:80%;
+            position: relative;
+            height: 6px;
+            box-shadow: inset 5px 5px 20px rgba(150, 152, 153, 0.57), inset -5px -5px 20px #FFFFFF;
+            border-radius: 100px;
+            margin-bottom: 10px;
+            span{
+                position: absolute;
+                height: 6px;
+                width:30%;
+                background: #AAAAAA;
+                border-radius: 100px;
+            }
+            .slider__dot{
+                position: relative;
+                width:26px;
+                height: 26px;
+                background: #E9EDF0;
+                box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
+                border-radius: 100px;
+                bottom:10px;
+                left: 28%;
+                .dot{
+                    position: absolute;
+                    top:42%;
+                    left:40%;
+                    border-radius: 100px;
+                    width: 6px;
+                    height: 6px;
+                    background: #412828;
+                    box-shadow: inset 5px 5px 20px rgba(117, 120, 122, 0.6), inset -5px -5px 20px #FFFFFF;
+                }
+            }
+        }
+        .track__time{
+            display: flex;
+            width:100%;
+            color: #828587;
+            font-size:13px;
+            justify-content: space-between;
+        }
+    }
+    .player__btn{
+        margin-bottom:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn-prev,.btn-next{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:20px;
+            background: #E9EDF0;
+                box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
+                border-radius: 100px;
+        }
+        .btn-start{
+            margin:0px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 23px 15px;
+            background: #E9EDF0;
+            box-shadow: 5px 5px 20px rgba(199, 202, 204, 0.6), -5px -5px 20px #FFFFFF;
+            border-radius: 100px;
+            a{
+                margin:0px 2px;
+            }
+        }
+    }
 }
